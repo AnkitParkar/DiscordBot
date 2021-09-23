@@ -43,6 +43,6 @@ def recieve_from_discord(channel,user):
     write_csv()
     mega_list.clear()
     
-#recieve_from_discord('publicity','Ankit')
+    
 
     
