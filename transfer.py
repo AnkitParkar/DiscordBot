@@ -11,7 +11,7 @@ def current_datetime():
 name="count.csv"
 
 def read_csv():
-    print("reading")
+    #print("reading")
     with open(name,'r') as file:
         r=csv.reader(file)
         for row in r:
@@ -19,7 +19,7 @@ def read_csv():
             
 
 def write_csv():
-    print("Writing")
+    #print("Writing")
     with open(name,'w',newline='') as file:
         wr=csv.writer(file)
         for i in mega_list:
@@ -27,12 +27,12 @@ def write_csv():
         
 
 def add_name(channel,user):
-    print(f"Add_name {channel} {user}")
+    #print(f"Add_name {channel} {user}")
     for i in range(0,len(mega_list)):
         if mega_list[i][0]==channel:
-            print(mega_list[i])
+     #       print(mega_list[i])
             mega_list[i].append(user)
-            print(mega_list[i])
+      #      print(mega_list[i])
             
     
 def recieve_from_discord(channel,user):
