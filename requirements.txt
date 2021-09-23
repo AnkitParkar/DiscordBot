@@ -1,0 +1,5 @@
+git+https://github.com/Rapptz/discord.py
+async-timeout==3.0.1
+nest-asyncio==1.4.3
+gspread==3.6.0
+oauth2client==4.1.3
